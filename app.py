@@ -2,12 +2,7 @@ import logging
 import sqlite3
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
-
-# Токен вашего бота
-TOKEN = '7208868281:AAHvJlXSvSn82-N3u06hhzd4v2Ni7ynV_uA'
-
-# Список идентификаторов пользователей
-USERS = ['1574853222', '6721664987']
+from config import TOKEN, USERS
 
 # Настройка логирования
 logging.basicConfig(
